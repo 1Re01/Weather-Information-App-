@@ -85,11 +85,13 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Code Structure
 
    ```bash
+main/
+└── java/
+    └── Main.java
 weatherapp/
-├── Main.java
 ├── UnitConverter.java
 ├── WeatherAPI.java
 ├── WeatherAppGUI.java
+├── WeatherData.java
 ├── WeatherHistory.java
-├── WeatherIconManager.java
-└── README.md
+└── WeatherIconManager.java
